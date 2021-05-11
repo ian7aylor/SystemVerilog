@@ -32,7 +32,7 @@ verilog review week1_2
 //D-Flip-Flop Structural (gate level) model
 
 module gate_adder ( a, b, cin, sum, cout);
-	output logic sum, co;
+	output logic sum, cout;
 	input logic  a, b, cin;
 	logic n1, n2, n3;
 	

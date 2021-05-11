@@ -10,7 +10,6 @@ verilog review week1_1
 	Course overview
 	Intro to SystemVerilog
 	Tech Overview
-
 */
 
 //D-Flip-Flop Structural (gate level) model
@@ -49,5 +48,4 @@ module DFF_RTL(q, d, clk, reset);
 		else
 			q <= d;
 	end
-	
 endmodule
